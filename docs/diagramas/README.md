@@ -1,4 +1,4 @@
-# Diagramas — índice
+﻿# Diagramas — índice
 
 Arquivos desta pasta detalham fluxos usados no planejamento e no vídeo.
 
