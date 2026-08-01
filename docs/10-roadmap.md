@@ -17,22 +17,22 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 - [x] Publicar repo `blind-spot` no GitHub
 - [x] Revisar escopo (freeze) — 01/08/2026
 
-## Fase 1 — Bootstrap dos repos de código ← em andamento
+## Fase 1 — Bootstrap dos repos de código
 
-1. Criar `blind-spot-api` (público)
-2. Criar `blind-spot-web` (público)
-3. README de cada um (install/run)
-4. Factory Flask + CORS + health + Swagger vazio
-5. `index.html` esqueleto + tokens CSS
+1. [x] Criar `blind-spot-api` (público)
+2. [x] Criar `blind-spot-web` (público)
+3. [x] README de cada um (install/run)
+4. [x] Factory Flask + CORS + health + Swagger vazio
+5. [x] `index.html` esqueleto + tokens CSS
 
-## Fase 2 — Domínio e persistência
+## Fase 2 — Domínio e persistência ← em andamento
 
-1. Models SQLAlchemy
-2. Enums e regras de transição
-3. Repositórios + services
-4. Testes unitários domínio
+1. [x] Models SQLAlchemy
+2. [x] Enums e regras de transição
+3. [x] Repositórios + services
+4. [x] Testes unitários domínio
 
-## Fase 3 — API completa
+## Fase 3 — API completa ← próxima
 
 1. Rotas jobs
 2. Rotas inconsistências/comentários
