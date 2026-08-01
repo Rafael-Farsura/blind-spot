@@ -40,7 +40,7 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 4. [x] Testes de API
 5. [x] Swagger preenchido (docstrings flasgger nas rotas)
 
-## Fase 4 — Front ← em andamento / quase fechada
+## Fase 4 — Front
 
 1. [x] client fetch + toast
 2. [x] Views jobs
@@ -48,9 +48,9 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 4. [x] Hash router
 5. [x] Checklist smoke (manual: abrir index.html com API + seed)
 
-## Fase 5 — Polimento e entrega acadêmica ← próxima
+## Fase 5 — Polimento e entrega acadêmica ← em andamento
 
-1. Ruff/format, limpeza de print
+1. [x] Cobertura pytest + limpeza
 2. Seed + roteiro de vídeo (≤ 4 min)
 3. Gravar: objetivo → Swagger → SPA
 4. Mensagem de entrega com links https dos 2 repos + vídeo
