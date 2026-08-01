@@ -25,22 +25,22 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 4. [x] Factory Flask + CORS + health + Swagger vazio
 5. [x] `index.html` esqueleto + tokens CSS
 
-## Fase 2 — Domínio e persistência ← em andamento
+## Fase 2 — Domínio e persistência
 
 1. [x] Models SQLAlchemy
 2. [x] Enums e regras de transição
 3. [x] Repositórios + services
 4. [x] Testes unitários domínio
 
-## Fase 3 — API completa ← próxima
+## Fase 3 — API completa ← em andamento / quase fechada
 
-1. Rotas jobs
-2. Rotas inconsistências/comentários
-3. Executar + seed
-4. Testes de API
-5. Swagger preenchido
+1. [x] Rotas jobs
+2. [x] Rotas inconsistências/comentários
+3. [x] Executar + seed
+4. [x] Testes de API
+5. [x] Swagger preenchido (docstrings flasgger nas rotas)
 
-## Fase 4 — Front
+## Fase 4 — Front ← próxima
 
 1. client fetch + toast
 2. Views jobs
