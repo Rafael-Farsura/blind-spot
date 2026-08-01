@@ -32,7 +32,7 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 3. [x] Repositórios + services
 4. [x] Testes unitários domínio
 
-## Fase 3 — API completa ← em andamento / quase fechada
+## Fase 3 — API completa
 
 1. [x] Rotas jobs
 2. [x] Rotas inconsistências/comentários
@@ -40,15 +40,15 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 4. [x] Testes de API
 5. [x] Swagger preenchido (docstrings flasgger nas rotas)
 
-## Fase 4 — Front ← próxima
+## Fase 4 — Front ← em andamento / quase fechada
 
-1. client fetch + toast
-2. Views jobs
-3. Views inconsistências
-4. Hash router
-5. Checklist smoke
+1. [x] client fetch + toast
+2. [x] Views jobs
+3. [x] Views inconsistências
+4. [x] Hash router
+5. [x] Checklist smoke (manual: abrir index.html com API + seed)
 
-## Fase 5 — Polimento e entrega acadêmica
+## Fase 5 — Polimento e entrega acadêmica ← próxima
 
 1. Ruff/format, limpeza de print
 2. Seed + roteiro de vídeo (≤ 4 min)
