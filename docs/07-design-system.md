@@ -1,4 +1,4 @@
-# Design system — Cruzamento (web)
+﻿# Design system — Blind Spot (web)
 
 Objetivo: Bootstrap como base estrutural + **CSS próprio obrigatório** (tokens e componentes), para não parecer o tema default.
 
@@ -51,7 +51,7 @@ Fonte: IBM Plex Sans via Google Fonts **ou** stack local — evita Inter/Roboto 
 
 | Componente | Uso | Notas |
 |------------|-----|-------|
-| `AppHeader` | Nome do produto + nav hash | Logo texto “Cruzamento” |
+| `AppHeader` | Nome do produto + nav hash | Logo texto “Blind Spot” + tagline curta opcional |
 | `StatusBadge` | Status job/inconsistência | Classe por status |
 | `JobCard` | Lista de jobs | Tipo, competência, status, ações |
 | `InconsistenciaCard` | Lista | Severidade + título + job ref |
@@ -66,7 +66,7 @@ Bootstrap: grid, form controls, modal se necessário. Visual final vem dos token
 
 ```
 ┌──────────────────────────────────────────┐
-│ Header: Cruzamento          Jobs | Achados│
+│ Header: Blind Spot          Jobs | Achados│
 ├──────────────────────────────────────────┤
 │ Título da visão                          │
 │ [filtros]                    [ação prim.]│

@@ -1,4 +1,4 @@
-# Plano de testes — Cruzamento
+﻿# Plano de testes — Blind Spot
 
 ## 1. Pirâmide
 

@@ -1,4 +1,4 @@
-# Requisitos funcionais — Cruzamento
+﻿# Requisitos funcionais — Blind Spot
 
 Prioridade: **Must** (obrigatório no MVP) · **Should** (desejável se couber) · **Could** (só se sobrar tempo)
 

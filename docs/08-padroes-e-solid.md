@@ -1,4 +1,4 @@
-# Padrões, Clean Code, SOLID e PEPs — Cruzamento
+﻿# Padrões, Clean Code, SOLID e PEPs — Blind Spot
 
 ## 1. Idioma do código (ADR-001)
 

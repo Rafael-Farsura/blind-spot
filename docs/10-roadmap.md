@@ -1,4 +1,4 @@
-# Roadmap de entrega — Cruzamento
+﻿# Roadmap de entrega — Blind Spot
 
 Ordem fechada. **Não pular para código de feature antes do passo 0 estar no GitHub.**
 
@@ -14,13 +14,13 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 - [x] Design system
 - [x] Padrões / SOLID
 - [x] Plano de testes
-- [ ] Publicar repo `cruzamento` no GitHub
+- [x] Publicar repo `blind-spot` no GitHub
 - [ ] Revisar escopo (freeze)
 
 ## Fase 1 — Bootstrap dos repos de código
 
-1. Criar `cruzamento-api` (público)
-2. Criar `cruzamento-web` (público)
+1. Criar `blind-spot-api` (público)
+2. Criar `blind-spot-web` (público)
 3. README de cada um (install/run)
 4. Factory Flask + CORS + health + Swagger vazio
 5. `index.html` esqueleto + tokens CSS
@@ -59,7 +59,7 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 
 | Tempo | Bloco |
 |------:|-------|
-| 0:00–0:40 | Problema e objetivo do Cruzamento |
+| 0:00–0:40 | Problema e objetivo do Blind Spot |
 | 0:40–2:10 | Swagger: criar job, executar, listar, patch, delete |
 | 2:10–3:40 | Front: mesmo fluxo em cards |
 | 3:40–4:00 | Encerramento |

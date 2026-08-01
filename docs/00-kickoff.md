@@ -1,7 +1,7 @@
-# Kick-off — Cruzamento
+﻿# Kick-off — Blind Spot
 
 **Data:** 30/07/2026  
-**Produto:** Cruzamento  
+**Produto:** Blind Spot  
 **Tipo:** MVP acadêmico (PUC-Rio — Full Stack básico) + portfólio técnico  
 **Duração prevista de implementação:** após fechamento desta documentação
 
@@ -15,7 +15,7 @@ Além da nota, o produto precisa fazer sentido para um perfil de engenharia em d
 
 ## 2. Problema de negócio (hipótese)
 
-> Analistas perdem tempo rastreando “quem rodou o quê” e “qual divergência ainda está aberta”, porque job e achado ficam em lugares diferentes.
+> Analistas perdem tempo rastreando “quem rodou o quê” e “qual divergência ainda está aberta”, porque checagem e achado ficam em lugares diferentes — o blind spot da operação.
 
 **Hipótese a validar com o MVP:** um painel único job → inconsistência → comentário → fechamento reduz atrito e deixa o fluxo auditável.
 
@@ -80,4 +80,4 @@ Entregar um protótipo funcional que:
 
 ## 10. Próximo passo após este kick-off
 
-Congelar RF/RNF → modelagem → arquitetura → só então abrir `cruzamento-api` e `cruzamento-web`.
+Congelar RF/RNF → modelagem → arquitetura → só então abrir `blind-spot-api` e `blind-spot-web`.

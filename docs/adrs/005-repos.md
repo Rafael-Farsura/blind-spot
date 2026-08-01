@@ -1,4 +1,4 @@
-# ADR-005 — Dois repositórios de código + um de docs
+﻿# ADR-005 — Dois repositórios de código + um de docs
 
 **Status:** Aceito  
 **Data:** 2026-07-30
@@ -9,9 +9,9 @@ A disciplina exige **dois** repositórios (API e front), cada um com README. Pla
 
 ## Decisão
 
-- `cruzamento` → documentação e planejamento (este repo)
-- `cruzamento-api` → implementação Flask
-- `cruzamento-web` → implementação SPA
+- `blind-spot` → documentação e planejamento (este repo)
+- `blind-spot-api` → implementação Flask
+- `blind-spot-web` → implementação SPA
 
 READMEs da api/web linkam de volta para este repo de docs.
 

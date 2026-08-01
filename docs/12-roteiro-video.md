@@ -1,7 +1,7 @@
-# Roteiro do vídeo de entrega (≤ 4 min)
+﻿# Roteiro do vídeo de entrega (≤ 4 min)
 
 1. **Objetivo (≤ 60s)**  
-   “Cruzamento é um MVP para triar inconsistências fiscais geradas por jobs de varredura. O analista roda a varredura, vê os achados em cards, comenta e fecha com parecer.”
+   “Blind Spot mostra o ponto cego da rotina fiscal: o analista roda uma checagem, vê as inconsistências em cards, comenta e fecha com parecer.”
 
 2. **API / Swagger (60–90s)**  
    - POST job  

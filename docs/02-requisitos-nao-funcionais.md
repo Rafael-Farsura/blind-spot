@@ -1,4 +1,4 @@
-# Requisitos não funcionais — Cruzamento
+﻿# Requisitos não funcionais — Blind Spot
 
 ---
 
@@ -33,7 +33,7 @@ API libera origem do front (`null` para `file://` e/ou `*` em ambiente acadêmic
 
 ## RNF-08 — Persistência
 
-SQLite em arquivo local (`cruzamento.db`). Schema criado na subida da app (ou migration simples). Sem PostgreSQL no MVP.
+SQLite em arquivo local (`blindspot.db`). Schema criado na subida da app (ou migration simples). Sem PostgreSQL no MVP.
 
 ## RNF-09 — Documentação de API
 

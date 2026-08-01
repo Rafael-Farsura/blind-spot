@@ -1,4 +1,4 @@
-# Casos de uso — Cruzamento
+﻿# Casos de uso — Blind Spot
 
 ## 1. Atores
 

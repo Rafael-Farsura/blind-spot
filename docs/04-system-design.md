@@ -1,4 +1,4 @@
-# System design — Cruzamento
+﻿# System design — Blind Spot
 
 Documento de decisões de produto/técnicas em nível de sistema. Detalhes pontuais ficam nos ADRs.
 
@@ -15,8 +15,8 @@ Documento de decisões de produto/técnicas em nível de sistema. Detalhes pontu
 ```mermaid
 sequenceDiagram
     actor Ana as Analista
-    participant Web as cruzamento-web
-    participant Api as cruzamento-api
+    participant Web as blind-spot-web
+    participant Api as blind-spot-api
     participant Db as SQLite
 
     Ana->>Web: Cria job

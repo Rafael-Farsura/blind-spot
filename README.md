@@ -1,25 +1,27 @@
-# Cruzamento
+﻿# Blind Spot
 
-Sistema de triagem de inconsistências fiscais alimentadas por jobs de varredura.
+Enxerga o que a rotina fiscal deixa passar.
+
+Painel para rodar checagens, triar inconsistências (pontos cegos) e fechar cada uma com comentário e parecer.
 
 Este repositório concentra o **planejamento e a documentação de produto**. A implementação será entregue em dois repositórios separados (exigência da disciplina):
 
 | Repositório | Conteúdo |
 |-------------|----------|
-| `cruzamento-api` | Back-end Flask + SQLAlchemy + SQLite + Swagger |
-| `cruzamento-web` | Front-end SPA (HTML/CSS/JS + Bootstrap + CSS próprio) |
+| `blind-spot-api` | Back-end Flask + SQLAlchemy + SQLite + Swagger |
+| `blind-spot-web` | Front-end SPA (HTML/CSS/JS + Bootstrap + CSS próprio) |
 
 ## Problema
 
-Equipes fiscais e operacionais costumam descobrir divergências em planilhas, e-mails e tickets soltos. Falta um lugar único para:
+Divergências aparecem em planilha, e-mail e ticket — o ponto cego da operação. Falta um lugar único para:
 
-1. registrar e acompanhar execuções de varredura (jobs);
+1. registrar e acompanhar as checagens (jobs);
 2. triar as inconsistências geradas;
 3. registrar parecer e fechar o ciclo.
 
 ## Solução (MVP)
 
-O analista dispara ou consulta um **job de varredura**. A execução gera **inconsistências**. Cada inconsistência pode receber **comentários**, mudar de **status** e ser encerrada com parecer.
+O analista dispara ou consulta um **job de checagem**. A execução gera **inconsistências**. Cada inconsistência pode receber **comentários**, mudar de **status** e ser encerrada com parecer.
 
 Escopo deliberadamente pequeno: o suficiente para validar o fluxo ponta a ponta, sem fila real em background nem autenticação corporativa.
 

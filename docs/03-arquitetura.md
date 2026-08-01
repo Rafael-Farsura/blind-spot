@@ -1,39 +1,39 @@
-# Arquitetura — Cruzamento
+﻿# Arquitetura — Blind Spot
 
 ## 1. Visão geral
 
 ```
 ┌─────────────────────────────┐         ┌──────────────────────────────────┐
-│  cruzamento-web             │  HTTP   │  cruzamento-api                  │
+│  blind-spot-web             │  HTTP   │  blind-spot-api                  │
 │  (SPA file:// ou estático)  │ ──────► │  Flask + SQLAlchemy + SQLite     │
 │  HTML / CSS / JS / Bootstrap│  JSON   │  Swagger em /api/docs            │
 └─────────────────────────────┘         └──────────────────────────────────┘
 ```
 
-Dois repositórios, um contrato. O repositório atual (`cruzamento`) guarda só a documentação.
+Dois repositórios, um contrato. O repositório atual (`blind-spot`) guarda só a documentação.
 
 ## 2. C4 — Contexto
 
 ```mermaid
 C4Context
-    title Cruzamento — contexto
+    title Blind Spot — contexto
     Person(analista, "Analista fiscal/ops", "Tria divergências")
-    System(cruzamento, "Cruzamento", "Jobs de varredura + inconsistências")
+    System(blindspot, "Blind Spot", "Jobs de varredura + inconsistências")
     System_Ext(browser, "Navegador", "Abre index.html")
 
     Rel(analista, browser, "Usa")
-    Rel(browser, cruzamento, "REST JSON", "HTTP")
+    Rel(browser, blindspot, "REST JSON", "HTTP")
 ```
 
 ## 3. C4 — Contêineres
 
 ```mermaid
 C4Container
-    title Cruzamento — contêineres
+    title Blind Spot — contêineres
     Person(analista, "Analista")
-    Container(web, "cruzamento-web", "HTML/CSS/JS", "SPA sem build")
-    Container(api, "cruzamento-api", "Flask", "REST + Swagger")
-    ContainerDb(db, "SQLite", "Arquivo local", "cruzamento.db")
+    Container(web, "blind-spot-web", "HTML/CSS/JS", "SPA sem build")
+    Container(api, "blind-spot-api", "Flask", "REST + Swagger")
+    ContainerDb(db, "SQLite", "Arquivo local", "blindspot.db")
 
     Rel(analista, web, "Abre index.html")
     Rel(web, api, "fetch", "JSON")
@@ -43,7 +43,7 @@ C4Container
 ## 4. Camadas no back-end
 
 ```
-cruzamento-api/
+blind-spot-api/
   app/
     __init__.py          # factory Flask
     config.py
@@ -72,7 +72,7 @@ Responsabilidades:
 ## 5. Camadas no front-end
 
 ```
-cruzamento-web/
+blind-spot-web/
   index.html
   css/
     tokens.css           # design tokens
@@ -94,7 +94,7 @@ Roteamento por `location.hash` — atende “SPA” sem framework.
 
 ## 6. Restrições REST mapeadas
 
-| Restrição Fielding | Como aparece no Cruzamento |
+| Restrição Fielding | Como aparece no Blind Spot |
 |--------------------|----------------------------|
 | Separação client/server | Repos e processos distintos |
 | Interface uniforme | Recursos `/api/jobs`, `/api/inconsistencias` |
@@ -125,7 +125,7 @@ Roteamento por `location.hash` — atende “SPA” sem framework.
 ```mermaid
 flowchart LR
   A[Navegador\nindex.html] -->|localhost:5000| B[Flask]
-  B --> C[(cruzamento.db)]
+  B --> C[(blindspot.db)]
   B --> D[Swagger UI]
 ```
 

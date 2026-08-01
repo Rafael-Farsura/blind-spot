@@ -1,4 +1,4 @@
-# Modelagem de dados — Cruzamento
+﻿# Modelagem de dados — Blind Spot
 
 ## 1. Diagrama entidade-relacionamento
 
