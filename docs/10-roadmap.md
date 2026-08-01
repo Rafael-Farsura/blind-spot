@@ -15,9 +15,9 @@ Ordem fechada. **Não pular para código de feature antes do passo 0 estar no Gi
 - [x] Padrões / SOLID
 - [x] Plano de testes
 - [x] Publicar repo `blind-spot` no GitHub
-- [ ] Revisar escopo (freeze)
+- [x] Revisar escopo (freeze) — 01/08/2026
 
-## Fase 1 — Bootstrap dos repos de código
+## Fase 1 — Bootstrap dos repos de código ← em andamento
 
 1. Criar `blind-spot-api` (público)
 2. Criar `blind-spot-web` (público)
